@@ -77,7 +77,7 @@ public class SocketThread implements Runnable{
                         main.setClientList(clientUsername);
                         main.setSocketList(socket);
                         main.tambahPemain(clientUsername);
-                        main.appendMessage("[Client]: "+ clientUsername +" memasuki chat room !");
+                        main.appendMessage("[Client]: "+ clientUsername +" memasuki game room !");
                         break;
                         
                     case "CMD_CHAT":
